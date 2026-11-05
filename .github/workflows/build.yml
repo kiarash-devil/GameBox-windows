@@ -26,4 +26,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: GameBox-exe
-          path: ${{ env.PROJ }}/dist/GameBox.exe
+          path: ${{ env.PROJ }}/dist/GameBox-Setup.exe
